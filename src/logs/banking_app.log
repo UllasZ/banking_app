@@ -1,0 +1,388 @@
+2025-05-26 07:12:08 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:12:08 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:12:08 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:13:02 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:13:02] "GET / HTTP/1.1" 200 -
+2025-05-26 07:13:04 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:13:04] "GET / HTTP/1.1" 200 -
+2025-05-26 07:13:05 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:13:05] "GET / HTTP/1.1" 200 -
+2025-05-26 07:13:33 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:13:33] "[35m[1mPOST /users/signup HTTP/1.1[0m" 500 -
+2025-05-26 07:16:57 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:16:57 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:16:57 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:17:05 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:17:05] "[35m[1mPOST /users/signup HTTP/1.1[0m" 500 -
+2025-05-26 07:22:54 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:22:55 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:22:55 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:23:06 - ERROR - users.py:38 - Internal server error: Could not build url for endpoint 'users.get_user' with values ['username']. Did you mean 'users.register_user' instead?
+2025-05-26 07:23:06 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:23:06] "[35m[1mPOST /users/signup HTTP/1.1[0m" 500 -
+2025-05-26 07:30:40 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:30:41 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:30:41 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:30:56 - ERROR - users.py:38 - Internal server error during registration: 'id'
+2025-05-26 07:30:56 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:30:56] "[35m[1mPOST /users/signup HTTP/1.1[0m" 500 -
+2025-05-26 07:32:33 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:32:33 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:32:33 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:32:37 - ERROR - mysqldb.py:52 - Duplicate entry: 1062 (23000): Duplicate entry 'Minnie20' for key 'users.username'
+2025-05-26 07:32:37 - ERROR - users.py:32 - Username already exists
+2025-05-26 07:32:37 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:32:37] "[31m[1mPOST /users/signup HTTP/1.1[0m" 409 -
+2025-05-26 07:33:46 - DEBUG - create_user.py:28 - Created user: [{'username': 'Minnie20', 'first_name': 'Minnie', 'last_name': 'Z'}]
+2025-05-26 07:33:46 - ERROR - users.py:38 - Internal server error during registration: 'id'
+2025-05-26 07:33:46 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:33:46] "[35m[1mPOST /users/signup HTTP/1.1[0m" 500 -
+2025-05-26 07:34:50 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 07:34:50 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 07:34:50 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 07:34:53 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 07:34:53] "[35m[1mPOST /users/signup HTTP/1.1[0m" 201 -
+2025-05-26 08:07:35 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:07:35] "[33mGET /users/ HTTP/1.1[0m" 404 -
+2025-05-26 08:07:43 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:07:43 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:07:43 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:07:52 - INFO - get_user.py:22 - Fetching all users
+2025-05-26 08:07:52 - DEBUG - get_user.py:29 - Number of users found: 3
+2025-05-26 08:07:52 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:07:52] "GET /users/ HTTP/1.1" 200 -
+2025-05-26 08:08:46 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 08:08:46 - DEBUG - get_user.py:12 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:08:46 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:08:46] "GET /users/1 HTTP/1.1" 200 -
+2025-05-26 08:08:50 - INFO - get_user.py:5 - Fetching user with id: 3
+2025-05-26 08:08:50 - DEBUG - get_user.py:12 - User found: {'id': 3, 'username': 'abi69', 'first_name': 'Abi', 'last_name': 'Lash'}
+2025-05-26 08:08:50 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:08:50] "GET /users/3 HTTP/1.1" 200 -
+2025-05-26 08:08:55 - INFO - get_user.py:5 - Fetching user with id: 31
+2025-05-26 08:08:55 - WARNING - get_user.py:15 - No user found with id: 31
+2025-05-26 08:08:55 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:08:55] "GET /users/31 HTTP/1.1" 200 -
+2025-05-26 08:09:38 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:09:39 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:09:39 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:09:55 - INFO - get_user.py:5 - Fetching user with id: 31
+2025-05-26 08:09:55 - WARNING - get_user.py:15 - No user found with id: 31
+2025-05-26 08:09:55 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:09:55] "[33mGET /users/31 HTTP/1.1[0m" 404 -
+2025-05-26 08:29:17 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:29:17 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:29:17 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:29:28 - INFO - get_user.py:5 - Fetching user with id: 31
+2025-05-26 08:29:28 - DEBUG - mysqldb.py:28 - Executed read query: SELECT id, username, first_name, last_name FROM users WHERE id = 31 LIMIT 1; with params: None
+2025-05-26 08:29:28 - WARNING - get_user.py:15 - No user found with id: 31
+2025-05-26 08:29:28 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:29:28] "[33mGET /users/31 HTTP/1.1[0m" 404 -
+2025-05-26 08:29:32 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 08:29:32 - DEBUG - mysqldb.py:28 - Executed read query: SELECT id, username, first_name, last_name FROM users WHERE id = 1 LIMIT 1; with params: None
+2025-05-26 08:29:32 - DEBUG - get_user.py:12 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:29:32 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:29:32] "GET /users/1 HTTP/1.1" 200 -
+2025-05-26 08:31:01 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:31:01 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:31:01 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:31:01 - INFO - update_user.py:32 - User 'ullas09' logged in successfully
+2025-05-26 08:31:01 - DEBUG - update_user.py:33 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:31:01 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:31:01] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:31:09 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:31:10 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:31:10 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:31:10 - INFO - update_user.py:32 - User 'ullas09' logged in successfully
+2025-05-26 08:31:10 - DEBUG - update_user.py:33 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:31:10 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:31:10] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:33:42 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:33:43 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:33:43 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:34:04 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:34:04 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:34:04 - ERROR - update_user.py:48 - Unexpected error during login for user 'ullas09': 'is_logged_in'
+2025-05-26 08:34:04 - ERROR - auth.py:38 - Internal server error during login: 'is_logged_in'
+Traceback (most recent call last):
+  File "/mnt/c/Users/Ullas/InterviewPreparation/banking_app/src/banking_app/apis/auth.py", line 20, in login
+    user_details = login_user(data)
+                   ^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/Ullas/InterviewPreparation/banking_app/src/banking_app/modules/users/update_user.py", line 30, in login_user
+    if result[0]['is_logged_in']:
+       ~~~~~~~~~^^^^^^^^^^^^^^^^
+KeyError: 'is_logged_in'
+2025-05-26 08:34:04 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:34:04] "[35m[1mPOST /auth/login HTTP/1.1[0m" 500 -
+2025-05-26 08:34:45 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:34:45 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:34:45 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:34:46 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:34:46 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:34:46 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:34:46 - INFO - update_user.py:33 - User 'ullas09' logged in successfully
+2025-05-26 08:34:46 - DEBUG - update_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:34:46 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:34:46] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:34:48 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:34:48 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:34:48 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:34:48 - INFO - update_user.py:33 - User 'ullas09' logged in successfully
+2025-05-26 08:34:48 - DEBUG - update_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:34:48 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:34:48] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:34:48 - INFO - update_user.py:10 - Attempting to log in user
+2025-05-26 08:34:49 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:34:49 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:34:49 - INFO - update_user.py:33 - User 'ullas09' logged in successfully
+2025-05-26 08:34:49 - DEBUG - update_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:34:49 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:34:49] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:36:02 - INFO - update_user.py:52 - Attempting to log out user
+2025-05-26 08:36:02 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-26 08:36:02 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 0 WHERE id = %s; with params: (1,)
+2025-05-26 08:36:02 - INFO - update_user.py:73 - User 'ullas09' logged out successfully
+2025-05-26 08:36:02 - DEBUG - update_user.py:74 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:36:02 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:36:02] "POST /auth/logout HTTP/1.1" 200 -
+2025-05-26 08:36:15 - INFO - update_user.py:52 - Attempting to log out user
+2025-05-26 08:36:15 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-26 08:36:15 - WARNING - update_user.py:77 - Invalid logout attempt for username: ullas09
+2025-05-26 08:36:15 - WARNING - auth.py:56 - Logout failed for user: ullas09
+2025-05-26 08:36:15 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:36:15] "[31m[1mPOST /auth/logout HTTP/1.1[0m" 401 -
+2025-05-26 08:44:44 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:44:44 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:44:44 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:44:53 - INFO - create_user.py:6 - Creating the user entry
+2025-05-26 08:44:53 - ERROR - mysqldb.py:55 - Duplicate entry error: 1062 (23000): Duplicate entry 'Minnie20' for key 'users.username'
+2025-05-26 08:44:53 - ERROR - users.py:32 - Username already exists
+2025-05-26 08:44:53 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:44:53] "[31m[1mPOST /users/signup HTTP/1.1[0m" 409 -
+2025-05-26 08:45:08 - INFO - create_user.py:6 - Creating the user entry
+2025-05-26 08:45:08 - DEBUG - mysqldb.py:52 - Executed write query: 
+        INSERT INTO users (username, password, first_name, last_name)
+        VALUES (%s, %s, %s, %s);
+     with params: ('Vikas18', 'Welcome@123', 'Vikas', 'Zingade')
+2025-05-26 08:45:08 - INFO - create_user.py:21 - User inserted successfully
+2025-05-26 08:45:08 - DEBUG - mysqldb.py:28 - Executed read query: SELECT id, username, first_name, last_name FROM users WHERE username = %s LIMIT 1; with params: ('Vikas18',)
+2025-05-26 08:45:08 - DEBUG - create_user.py:28 - Inserted user record: {'id': 22, 'username': 'Vikas18', 'first_name': 'Vikas', 'last_name': 'Zingade'}
+2025-05-26 08:45:08 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:08] "[35m[1mPOST /users/signup HTTP/1.1[0m" 201 -
+2025-05-26 08:45:11 - INFO - get_user.py:29 - Fetching all users
+2025-05-26 08:45:11 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s;
+             with params: (1,)
+2025-05-26 08:45:11 - DEBUG - get_user.py:40 - Number of users found: 4
+2025-05-26 08:45:11 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:11] "GET /users/ HTTP/1.1" 200 -
+2025-05-26 08:45:19 - INFO - get_user.py:29 - Fetching all users
+2025-05-26 08:45:19 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s;
+             with params: (1,)
+2025-05-26 08:45:19 - DEBUG - get_user.py:40 - Number of users found: 4
+2025-05-26 08:45:19 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:19] "GET /users/ HTTP/1.1" 200 -
+2025-05-26 08:45:21 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 08:45:21 - ERROR - mysqldb.py:32 - MySQL Read Error: 1054 (42S22): Unknown column 'user_id' in 'where clause'
+2025-05-26 08:45:21 - ERROR - users.py:71 - Database error while retrieving user 1: MySQL read error: 1054 (42S22): Unknown column 'user_id' in 'where clause'
+2025-05-26 08:45:21 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:21] "[35m[1mGET /users/1 HTTP/1.1[0m" 500 -
+2025-05-26 08:45:46 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 08:45:46 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 08:45:46 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 08:45:50 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 08:45:50 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 1)
+2025-05-26 08:45:50 - DEBUG - get_user.py:19 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:45:50 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:50] "GET /users/1 HTTP/1.1" 200 -
+2025-05-26 08:45:56 - INFO - get_user.py:5 - Fetching user with id: 22
+2025-05-26 08:45:56 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 22)
+2025-05-26 08:45:56 - DEBUG - get_user.py:19 - User found: {'id': 22, 'username': 'Vikas18', 'first_name': 'Vikas', 'last_name': 'Zingade'}
+2025-05-26 08:45:56 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:45:56] "GET /users/22 HTTP/1.1" 200 -
+2025-05-26 08:46:00 - INFO - get_user.py:5 - Fetching user with id: 222
+2025-05-26 08:46:00 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 222)
+2025-05-26 08:46:00 - WARNING - get_user.py:22 - No user found with id: 222
+2025-05-26 08:46:00 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:46:00] "[33mGET /users/222 HTTP/1.1[0m" 404 -
+2025-05-26 08:46:03 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 08:46:03 - DEBUG - mysqldb.py:28 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 1)
+2025-05-26 08:46:03 - DEBUG - get_user.py:19 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:46:03 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:46:03] "GET /users/1 HTTP/1.1" 200 -
+2025-05-26 08:46:06 - INFO - login_user.py:10 - Attempting to log in user
+2025-05-26 08:46:06 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-26 08:46:06 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-26 08:46:06 - INFO - login_user.py:33 - User 'ullas09' logged in successfully
+2025-05-26 08:46:06 - DEBUG - login_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:46:06 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:46:06] "POST /auth/login HTTP/1.1" 200 -
+2025-05-26 08:46:09 - INFO - logout_user.py:9 - Attempting to log out user
+2025-05-26 08:46:09 - DEBUG - mysqldb.py:28 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-26 08:46:09 - DEBUG - mysqldb.py:52 - Executed write query: UPDATE users SET is_logged_in = 0 WHERE id = %s; with params: (1,)
+2025-05-26 08:46:09 - INFO - logout_user.py:30 - User 'ullas09' logged out successfully
+2025-05-26 08:46:09 - DEBUG - logout_user.py:31 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 08:46:09 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 08:46:09] "POST /auth/logout HTTP/1.1" 200 -
+2025-05-26 11:12:04 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 11:12:06 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 11:12:06 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 11:12:32 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 11:12:32 - INFO - _internal.py:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-26 11:12:32 - INFO - _internal.py:97 - [33mPress CTRL+C to quit[0m
+2025-05-26 11:13:29 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-26 11:13:29 - DEBUG - mysql_connector.py:29 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 1)
+2025-05-26 11:13:29 - DEBUG - get_user.py:19 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-26 11:13:29 - INFO - _internal.py:97 - 127.0.0.1 - - [26/May/2025 11:13:29] "GET /users/1 HTTP/1.1" 200 -
+2025-05-26 11:25:39 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 11:27:01 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 17:36:11 - INFO - logger.py:24 - Logger initiated!
+2025-05-26 17:36:11 - INFO - logger.py:24 - Logger initiated!
+2025-05-27 06:04:32 - INFO - logger.py:24 - Logger initiated!
+2025-05-27 06:08:02 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 06:08:02 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:08:02 - ERROR - users.py:35 - Database error during user creation: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:08:43 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 06:08:43 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:08:43 - ERROR - users.py:35 - Database error during user creation: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:08:44 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 06:08:44 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:08:44 - ERROR - users.py:35 - Database error during user creation: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:09:12 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 06:09:12 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:09:12 - ERROR - users.py:35 - Database error during user creation: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:09:21 - INFO - get_user.py:29 - Fetching all users
+2025-05-27 06:09:21 - DEBUG - mysql_connector.py:29 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s;
+             with params: (1,)
+2025-05-27 06:09:21 - DEBUG - get_user.py:40 - Number of users found: 4
+2025-05-27 06:09:24 - INFO - get_user.py:5 - Fetching user with id: 1
+2025-05-27 06:09:24 - DEBUG - mysql_connector.py:29 - Executed read query: 
+                SELECT id, username, first_name, last_name
+                FROM users
+                WHERE is_active = %s AND id = %s
+                LIMIT 1;
+             with params: (1, 1)
+2025-05-27 06:09:24 - DEBUG - get_user.py:19 - User found: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-27 06:09:29 - INFO - login_user.py:10 - Attempting to log in user
+2025-05-27 06:09:29 - DEBUG - mysql_connector.py:29 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-27 06:09:29 - DEBUG - mysql_connector.py:51 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-27 06:09:29 - INFO - login_user.py:33 - User 'ullas09' logged in successfully
+2025-05-27 06:09:29 - DEBUG - login_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-27 06:09:32 - INFO - logout_user.py:9 - Attempting to log out user
+2025-05-27 06:09:32 - DEBUG - mysql_connector.py:29 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-27 06:09:32 - DEBUG - mysql_connector.py:51 - Executed write query: UPDATE users SET is_logged_in = 0 WHERE id = %s; with params: (1,)
+2025-05-27 06:09:32 - INFO - logout_user.py:30 - User 'ullas09' logged out successfully
+2025-05-27 06:09:32 - DEBUG - logout_user.py:31 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-27 06:10:04 - INFO - logout_user.py:9 - Attempting to log out user
+2025-05-27 06:10:04 - DEBUG - mysql_connector.py:29 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-27 06:10:04 - WARNING - logout_user.py:34 - Invalid logout attempt for username: ullas09
+2025-05-27 06:10:04 - WARNING - auth.py:58 - Logout failed for user: ullas09
+2025-05-27 06:10:09 - INFO - login_user.py:10 - Attempting to log in user
+2025-05-27 06:10:09 - DEBUG - mysql_connector.py:29 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND password = %s AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09', 'Welcome@123')
+2025-05-27 06:10:09 - DEBUG - mysql_connector.py:51 - Executed write query: UPDATE users SET is_logged_in = 1 WHERE id = %s; with params: (1,)
+2025-05-27 06:10:09 - INFO - login_user.py:33 - User 'ullas09' logged in successfully
+2025-05-27 06:10:09 - DEBUG - login_user.py:34 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-27 06:10:16 - INFO - logout_user.py:9 - Attempting to log out user
+2025-05-27 06:10:16 - DEBUG - mysql_connector.py:29 - Executed read query: 
+            SELECT id, username, first_name, last_name
+            FROM users
+            WHERE username = %s AND is_logged_in = 1 AND is_active = 1
+            LIMIT 1;
+         with params: ('ullas09',)
+2025-05-27 06:10:16 - DEBUG - mysql_connector.py:51 - Executed write query: UPDATE users SET is_logged_in = 0 WHERE id = %s; with params: (1,)
+2025-05-27 06:10:16 - INFO - logout_user.py:30 - User 'ullas09' logged out successfully
+2025-05-27 06:10:16 - DEBUG - logout_user.py:31 - User data: {'id': 1, 'username': 'ullas09', 'first_name': 'Ullas', 'last_name': 'Zingade'}
+2025-05-27 06:10:51 - INFO - logger.py:24 - Logger initiated!
+2025-05-27 06:14:12 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 06:14:12 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 06:14:12 - ERROR - users.py:38 - Internal server error during registration: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 07:40:54 - INFO - create_user.py:6 - Creating the user entry
+2025-05-27 07:40:54 - ERROR - mysql_connector.py:53 - MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 07:40:54 - ERROR - users.py:38 - Internal server error during registration: MySQL error: 1062 (23000): Duplicate entry 'Vikas18' for key 'users.username'
+2025-05-27 07:41:53 - INFO - logger.py:24 - Logger initiated!
+2025-05-27 07:43:27 - INFO - logger.py:24 - Logger initiated!
+2025-05-27 07:43:29 - INFO - auth_service.py:9 - Attempting login for user: ullas09
+2025-05-27 07:43:29 - ERROR - mysql_connector.py:33 - Read failed: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-05-27 07:43:29 - ERROR - auth_service.py:23 - Login error: (1045, "Access denied for user 'root'@'localhost' (using password: YES)")
+2025-05-30 07:14:15 - INFO - logger.py:24 - Logger initiated!
